@@ -1,6 +1,6 @@
 [user]
-	email = agross@therightstuff.de
-	name = Alexander Groß
+	email = sven@sven-s.de
+	name = Sven Sönnichsen
 [core]
 	whitespace = cr-at-eol
 	quotepath = false
@@ -67,10 +67,10 @@
 	default = simple
 	followTags = true
 [sendemail]
-	from = Alexander Groß <agross@therightstuff.de>
+	from = Sven Sönnichsen <sven@sven-s.de>
 	smtpencryption = tls
 	smtpserver = smtp.gmail.com
-	smtpuser = agross@therightstuff.de
+	smtpuser = sven@sven-s.de
 	smtpserverport = 587
 [status]
 	#submodulesummary = true
@@ -95,10 +95,6 @@
 	path = ~/.git-config/windows/diff-highlight-colors.config
 [url "git@github.com:"]
 	insteadOf = gh:
-[url "git@grossweber.com"]
-	insteadOf = gw:
-[url "ssh://git@gitlab.grossweber.com:10022/"]
-	insteadOf = gl:
 [commit]
 	verbose = true
 
