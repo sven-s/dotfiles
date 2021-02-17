@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 if [[ "$OSTYPE" == 'mac' ]]; then
-  formula vim --with-override-system-vi
+  formula vim
 fi
 
 [[ "$OSTYPE" == 'windows' ]] && return

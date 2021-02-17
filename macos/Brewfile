@@ -58,12 +58,12 @@ brew 'webkit2png'
 brew 'xz'
 
 cask 'android-file-transfer'
-cask 'bartender'
+#cask 'bartender'
 cask 'bettertouchtool'
 cask 'dash'
 cask 'dotnet-sdk'
-cask 'dropbox'
-cask 'google-chrome'
+#cask 'dropbox'
+#cask 'google-chrome'
 cask 'google-hangouts'
 cask 'hyperdock'
 cask 'hyperswitch'
@@ -75,15 +75,13 @@ cask 'keyboardcleantool'
 cask 'lumen'
 cask 'macdown'
 cask 'mpv'
-cask 'paste'
-cask 'popclip'
+#cask 'popclip'
 cask 'postman'
-cask 'skype'
+#cask 'skype'
 cask 'symboliclinker'
 cask 'teamviewer'
 
 # Apps from the Mac App Store.
-mas 'EasyRes', id: 688_211_836
 mas 'Microsoft Remote Desktop', id: 1_295_203_466
 mas 'Reeder', id: 880_001_334
 mas 'Spark', id: 1_176_895_641
