@@ -31,4 +31,14 @@ zplug load ${ZSH_VERBOSE/true/--verbose}
 # Clean up after ourselves.
 undefine-startup-functions
 
+
 # vim: set ft=zsh ts=2 sw=2 et:
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+export PATH="$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$HOME/Library/Android/sdk/build-tools/30.0.1:/usr/local/sbin:$PATH"
