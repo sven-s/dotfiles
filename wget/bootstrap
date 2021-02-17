@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 if [[ "$OSTYPE" == 'mac' ]]; then
-  formula wget --with-iri
+  formula wget
 fi
 
 symlink "$topic/wgetrc"
