@@ -43,7 +43,7 @@
 	rmdir = true
 	findcopiesharder = true
 [merge]
-	tool = diffmerge
+	tool = kdiff3
 	log = true
 [mergetool]
 	prompt = false
