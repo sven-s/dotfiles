@@ -1,9 +1,0 @@
-#!/usr/bin/env sh
-
-if scutil --dns | grep --quiet --fixed-strings home.therightstuff.de; then
-  host=router
-else
-  host=proxy-router
-fi
-
-ssh "$host" -t \$HOME/bin/wake
