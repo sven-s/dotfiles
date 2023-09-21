@@ -32,7 +32,6 @@ brew 'unzip'
 brew 'watch'
 
 # QuickLook plugins, https://github.com/sindresorhus/quick-look-plugins
-cask 'betterzip'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qlmarkdown'
@@ -76,44 +75,25 @@ cask 'alt-tab'
 cask 'android-file-transfer'
 cask 'android-platform-tools'
 cask 'anydesk'
-cask 'atext'
-cask 'banking-4'
-cask 'bartender'
-cask 'bettertouchtool'
-cask 'brave-browser'
-cask 'cleanmymac'
-cask 'dash'
 cask 'dockmate'
 cask 'dotnet-sdk'
 cask 'double-commander'
 cask 'drawio'
-cask 'flux'
 cask 'freecad'
-cask 'istat-menus'
 cask 'jetbrains-toolbox'
-cask 'kap'
-cask 'keka'
 cask 'keyboardcleantool'
 cask 'launchcontrol'
 cask 'lumen'
 cask 'macdown'
 cask 'maestral'
-cask 'microsoft-excel'
-cask 'microsoft-word'
-cask 'microsoft-teams'
 cask 'mqtt-explorer'
-cask 'netnewswire'
 cask 'nextcloud'
 cask 'pika'
-cask 'popclip'
 cask 'postman'
 cask 'signal'
 cask 'symboliclinker'
 cask 'telegram'
-cask 'threema'
 cask 'timemachineeditor'
-cask 'vnc-viewer'
-cask 'whatsapp'
 cask 'wireshark'
 cask 'xnviewmp'
 cask 'zoom'
@@ -125,21 +105,11 @@ cask 'dbgate'
 # Apps from the Mac App Store.
 mas 'AS Timer', id: 512_464_723
 mas 'Bitwarden', id: 1_352_778_147
-mas 'CleanMyDrive 2', id: 523_620_159
 mas 'Command X', id: 6_448_461_551
-mas 'Discovery', id: 1_381_004_916
-mas 'EasyRes', id: 688_211_836
 mas 'Microsoft Remote Desktop', id: 1_295_203_466
-mas 'Monosnap', id: 540_348_655
 mas 'Moom', id: 419_330_170
-mas 'PastePal', id: 1_503_446_680
-mas 'PCalc', id: 403_504_866
 mas 'Shareful', id: 1_522_267_256
-mas 'Spark', id: 1_176_895_641
 mas 'Trello', id: 1_278_508_951
-mas 'Tweetbot', id: 1_384_080_005
-mas 'VMware Remote Console', id: 1_230_249_825
 mas 'WhatsApp', id: 1_147_396_723
-mas 'WireGuard', id: 1_451_685_025
 
 # vim: set ft=ruby ts=2 sw=2 et:
