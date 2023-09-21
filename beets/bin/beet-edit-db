@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-
-open -a '/Applications/DB Browser for SQLite.app' ~/.config/beets/library.db
