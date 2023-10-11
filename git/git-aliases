@@ -13,9 +13,6 @@
 
 	gitignored = ls-files --others --directory --ignored --exclude-standard
 
-	# Git trainings: created often-used graph.
-	diverged = !git init && git some 2 && git checkout -b topic && git some 3 && git checkout - && git some
-
 	# git commit.
 	ci   = commit
 	cim  = commit --message
@@ -94,8 +91,5 @@
 	# Disable pager.
 	np = !git --no-pager
 	dp = !git -c pager.show='less -FRX' -c pager.log='less -FRX' -c pager.diff='less -FRX'
-
-	# Push GW repo to GitLab.
-	sync-gitlab = !"url=$(git remote get-url origin); url=${url#git@grossweber.com:}; git push ssh://git@gitlab.grossweber.com:10022/$url --all"
 
 # vim: set ft=gitconfig ts=2 sw=2 noet:
