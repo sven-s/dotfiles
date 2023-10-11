@@ -64,12 +64,6 @@ zinit ice wait lucid &&
 zinit light zdharma-continuum/zinit-annex-bin-gem-node
 
 zinit ice wait lucid \
-          has:git \
-          sbin:git-some \
-          cloneopts: &&
-  zinit light grossweber/git-some
-
-zinit ice wait lucid \
           has:git &&
   zinit light rapid-git/rapid-git
 
