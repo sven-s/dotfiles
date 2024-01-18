@@ -24,7 +24,7 @@ if [[ $# -gt 0 ]] ||
    [[ $(defaults read com.apple.controlcenter 'NSStatusItem Visible FocusModes') == 1 ]]; then
   killall caffeinate 2> /dev/null
   m volume unmute
-  open -a Flux
+  #open -a Flux
   open -a DockMate
   osascript <<< 'tell application "PopClip" to set enabled to true'
 
@@ -38,12 +38,12 @@ else
   # http://stackoverflow.com/a/10408906/149264
   nohup caffeinate -u -t $((9 * 60 * 60)) < /dev/null > /dev/null 2>&1 &disown
 
-  if ! scutil --dns | grep --quiet --fixed-strings home.therightstuff.de; then
-    # Only mute while not at home.
-    m volume mute
+  if ! scutil --dns | grep --quiet --fixed-strings local.lan; then
+    Only mute while not at home.
+   m volume mute
   fi
 
-  killall Flux 2> /dev/null
+  #killall Flux 2> /dev/null
   killall DockMate 2> /dev/null
   osascript <<< 'tell application "PopClip" to set enabled to false'
 
