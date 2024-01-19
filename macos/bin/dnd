@@ -27,8 +27,11 @@ if [[ $# -gt 0 ]] ||
   #open -a Flux
   open -a DockMate
   osascript <<< 'tell application "PopClip" to set enabled to true'
+  defaults write com.apple.WindowManager StandardHideWidgets -int 0
+  defaults write com.apple.finder CreateDesktop TRUE
+  killall Finder
 
-  if ! brew autoupdate status | grep --quiet running; then
+  if brew autoupdate status | grep --quiet stopped; then
     brew autoupdate start
   fi
 
@@ -46,6 +49,9 @@ else
   #killall Flux 2> /dev/null
   killall DockMate 2> /dev/null
   osascript <<< 'tell application "PopClip" to set enabled to false'
+  defaults write com.apple.WindowManager StandardHideWidgets -int 1
+  defaults write com.apple.finder CreateDesktop -bool FALSE
+  killall Finder
 
   if brew autoupdate status | grep --quiet running; then
     brew autoupdate stop
