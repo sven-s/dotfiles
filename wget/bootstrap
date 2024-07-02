@@ -1,7 +1,8 @@
 # shellcheck shell=bash
 
 if [[ "$OSTYPE" == darwin* ]]; then
-  formula wget --with-iri
+  formula wget 
+  #--with-iri
 fi
 
 symlink "$topic/wgetrc"
