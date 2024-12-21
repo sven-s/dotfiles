@@ -97,6 +97,7 @@ cask 'timemachineeditor'
 cask 'wireshark'
 cask 'jump-desktop-connect'
 cask 'jump'
+cask 'kdiff3'
 
 # DB tools.
 cask 'azure-data-studio'
