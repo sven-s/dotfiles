@@ -1,0 +1,7 @@
+# shellcheck shell=bash
+
+curl -s "https://get.sdkman.io" | bash
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# vim: set ft=sh ts=2 sw=2 et:
