@@ -1,1 +1,12 @@
-curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version
+
+# shellcheck shell=bash
+
+if [[ "$OSTYPE" == darwin* ]]; then
+
+  formula go
+  
+  curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version
+
+fi
+
+# vim: set ft=sh ts=2 sw=2 et:

@@ -13,7 +13,6 @@ if [[ "$OSTYPE" == darwin* ]]; then
   cask kdiff3
 
   cask fork
-  cask gitup
 
   # Tools required to record and convert casts.
   formula ansifilter
