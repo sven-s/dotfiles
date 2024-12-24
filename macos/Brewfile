@@ -52,9 +52,13 @@ brew 'jqp'
 # Apps without topic directories.
 brew 'android-sdk'
 brew 'openjdk@11'
-brew 'bitwarden-cli'
+brew 'btop'
 brew 'curl'
+brew 'cocoapods'
+brew 'esphome'
+brew 'esptool'
 brew 'fastlane'
+brew 'ffmpeg'
 brew 'graphviz'
 brew 'httpie'
 brew 'imagemagick'
@@ -73,14 +77,21 @@ brew 'webkit2png'
 brew 'xz'
 brew 'yt-dlp'
 
+brew 'hugo'
+brew 'influxdb-cli'
+brew 'mitchellh/gon/gon'
+brew 'mosh'
+brew 'prettier'
+brew 'pyenv'
+brew 'qemu'
+brew 'robotsandpencils/made/xcodes'
+
 tap 'isen-ng/dotnet-sdk-versions'
 cask 'dotnet-sdk'
 
 cask 'alt-tab'
 cask 'android-file-transfer'
 cask 'android-platform-tools'
-cask 'dockmate'
-cask 'double-commander'
 cask 'drawio'
 cask 'freecad'
 cask 'jetbrains-toolbox'
@@ -89,29 +100,108 @@ cask 'launchcontrol'
 cask 'maestral'
 cask 'mqtt-explorer'
 cask 'nextcloud'
-cask 'pika'
-cask 'postman'
 cask 'signal'
 cask 'symboliclinker'
-cask 'telegram'
 cask 'timemachineeditor'
 cask 'wireshark'
 cask 'jump-desktop-connect'
-cask 'jump'
 cask 'kdiff3'
+cask 'setapp'
+cask 'vmware-horizon-client'
+cask 'vivaldi'
+cask 'ultimaker-cura'
+cask 'tyme'
+cask 'snagit'
+cask 'fujitsu-scansnap-home'
+
+cask 'sdformatter'
+cask 'secretive'
+cask 'raycast'
+cask 'monitorcontrol'
+cask 'raspberry-pi-imager'
+cask 'parallels'
+cask 'parallels-toolbox'
+cask 'lingon-x'
+cask 'latest'
+cask 'keystore-explorer'
+cask 'karabiner-elements'
+cask 'imazing'
+cask 'iexplorer'
+cask 'google-earth-pro'
+cask 'garmin-express'
+cask 'devonthink'
+cask 'deepl'
+cask 'cursor'
+cask 'cyberduck'
+cask 'daisydisk'
+cask 'silicon-labs-vcp-driver'
+cask 'coconutbattery'
+cask 'chatgpt'
+cask 'bruno'
+cask 'balenaetcher'
+cask 'arq'
+cask 'arduino-ide'
+cask 'arc'
+cask 'angry-ip-scanner'
+cask 'adobe-acrobat-reader'
+cask '1password@7'
+cask 'kicad'
+
+# cask 'visual-studio'
+
+# Missing Apps 
+# WidgetToggler 
+# qelectrotech
+# iTerm AI Plugin
+# Clouds Radio
+# Bill2
+# 3D Connection
+
+# Setapp apps.
+# Jetbrains Apps
 
 # DB tools.
 cask 'azure-data-studio'
 cask 'dbgate'
 
 # Apps from the Mac App Store.
-mas 'AS Timer', id: 512_464_723
-mas 'Bitwarden', id: 1_352_778_147
+mas '1Blocker Ad Blocker', id: 1_365_531_024
+mas '2FAS - 2FA Browser Extension', id: 6_443_941_139
+mas 'APNs Tool', id: 1_568_890_120
+mas 'Auth App for Tesla', id: 1_552_058_613
 mas 'Command X', id: 6_448_461_551
-mas 'Microsoft Remote Desktop', id: 1_295_203_466
-mas 'Moom', id: 419_330_170
+mas 'Consent-O-Matic', id: 1_606_897_889
+mas 'DaisyDisk', id: 411_643_860
+mas 'FIT File Explorer', id: 1_244_431_640
+mas 'Foreca', id: 525_994_479
+mas 'GoodLinks', id: 1_474_335_294
+mas 'Home Assistant', id: 1_099_568_401
+mas 'Hush Nag Blocker', id: 1_544_743_900
+mas 'Irvue', id: 1_039_633_667
+mas 'Jump Desktop (RDP, VNC, Fluid)', id: 524_141_863
+mas 'Kindle Classic', id: 405_399_194
+mas 'Meeter for Zoom & Teams', id: 1_510_445_899
+mas 'New File Menu', id: 1_064_959_555
+mas 'NextDNS', id: 1_464_122_853
+mas 'Noir - Dark Mode for Safari', id: 1_592_917_505
+mas 'NordVPN - VPN Fast & Secure', id: 905_953_485
+mas 'PDF Converter King', id: 1_454_334_140
+mas 'Raycast Companion', id: 6_738_274_497
+mas 'Service Station', id: 1_503_136_033
 mas 'Shareful', id: 1_522_267_256
+mas 'Slack for Desktop', id: 803_453_959
+mas 'SSH Files - Secure Shellfish', id: 1_336_634_154
+mas 'StopTheMadness Pro', id: 6_471_380_298
+mas 'SuperCopy for Safari', id: 6_477_720_316
+mas 'Tailscale', id: 1_475_387_142
+mas 'TestFlight', id: 899_247_664
 mas 'Trello', id: 1_278_508_951
+mas 'Transporter', id: 1_450_874_784
+mas 'Userscripts', id: 1_463_298_887
 mas 'WhatsApp', id: 1_147_396_723
+mas 'Whisper Transcription', id: 1_668_083_311
+mas 'Windows App', id: 1_295_203_466
+mas 'Xcode', id: 497_799_835
+mas 'Yoink - Better Drag and Drop', id: 457_622_435
 
 # vim: set ft=ruby ts=2 sw=2 et:
