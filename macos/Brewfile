@@ -32,7 +32,6 @@ brew 'watch'
 
 # QuickLook plugins, https://github.com/sindresorhus/quick-look-plugins
 cask 'qlcolorcode'
-cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlvideo'
 cask 'quicklookase'
