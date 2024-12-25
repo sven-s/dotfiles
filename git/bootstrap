@@ -1,7 +1,6 @@
 # shellcheck shell=bash
 
 symlink "$topic/gitconfig"
-symlink "$topic/gitconfig.training"
 symlink "$topic/git-wtfrc"
 
 if [[ "$OSTYPE" == darwin* ]]; then
