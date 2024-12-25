@@ -49,7 +49,7 @@ and submit a pull request.
 ## Installation
 
 ```bash
-$ git clone --recursive https://github.com/agross/dotfiles.git ~/.dotfiles
+$ git clone --recursive https://github.com/sven-s/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ ./bootstrap
 ```
