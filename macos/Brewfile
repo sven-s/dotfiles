@@ -83,6 +83,8 @@ brew 'mosh'
 brew 'prettier'
 brew 'pyenv'
 brew 'qemu'
+
+tap 'robotsandpencils/made'
 brew 'robotsandpencils/made/xcodes'
 
 tap 'isen-ng/dotnet-sdk-versions'
