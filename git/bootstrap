@@ -7,9 +7,9 @@ symlink "$topic/git-wtfrc"
 if [[ "$OSTYPE" == darwin* ]]; then
   formula git
   formula git-lfs
-  formula git-svn
+  # formula git-svn
 
-  cask diffmerge
+  # cask diffmerge
   cask kdiff3
 
   cask fork
