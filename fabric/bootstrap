@@ -5,8 +5,11 @@ if [[ "$OSTYPE" == darwin* ]]; then
 
   formula go
   
+  if [[ -d ./fabric/bin ]]; then
+    return
+  fi
+  
   mkdir -p ./fabric/bin
-
   curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > ./fabric/bin/fabric && chmod +x ./fabric/bin/fabric && ./fabric/bin/fabric --version
 
 fi
