@@ -18,6 +18,8 @@ brew cleanup
 
 brew link --force curl
 
+brew tap domt4/autoupdate
+
 if brew autoupdate status | grep --quiet 'Autoupdate is not configured'; then
   brew autoupdate start --upgrade --cleanup
 fi
