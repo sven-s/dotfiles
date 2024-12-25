@@ -49,7 +49,6 @@ tap 'noahgorstein/tap'
 brew 'jqp'
 
 # Apps without topic directories.
-brew 'android-sdk'
 brew 'openjdk@11'
 brew 'btop'
 brew 'curl'
