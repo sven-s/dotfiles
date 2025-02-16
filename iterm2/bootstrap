@@ -7,5 +7,6 @@ fi
 cask iterm2
 
 cask font-jetbrains-mono
+cask font-droid-sans-mono-nerd-font
 
 # vim: set ft=sh ts=2 sw=2 et:
