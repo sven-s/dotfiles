@@ -49,7 +49,6 @@ tap 'noahgorstein/tap'
 brew 'jqp'
 
 # Apps without topic directories.
-brew 'openjdk@11'
 brew 'btop'
 brew 'curl'
 brew 'cocoapods'
@@ -57,7 +56,6 @@ brew 'esphome'
 brew 'esptool'
 brew 'fastlane'
 brew 'ffmpeg'
-brew 'graphviz'
 brew 'httpie'
 brew 'imagemagick'
 brew 'jid'
@@ -69,8 +67,6 @@ brew 'ripgrep'
 brew 'shellcheck'
 brew 'shfmt'
 brew 'speedtest-cli'
-brew 'testssl'
-brew 'wakeonlan'
 brew 'webkit2png'
 brew 'xz'
 brew 'yt-dlp'
@@ -106,37 +102,37 @@ cask 'timemachineeditor'
 cask 'wireshark'
 cask 'jump-desktop-connect'
 cask 'kdiff3'
-cask 'setapp'
+# cask 'setapp'
 cask 'vmware-horizon-client'
 cask 'vivaldi'
 cask 'ultimaker-cura'
-cask 'tyme'
-cask 'snagit'
+#cask 'tyme'
+#cask 'snagit'
 cask 'fujitsu-scansnap-home'
 
 cask 'sdformatter'
 cask 'secretive'
-cask 'raycast'
+# cask 'raycast'
 cask 'monitorcontrol'
 cask 'raspberry-pi-imager'
-cask 'parallels'
+# cask 'parallels'
 cask 'parallels-toolbox'
 cask 'lingon-x'
-cask 'latest'
+#cask 'latest'
 cask 'keystore-explorer'
 cask 'karabiner-elements'
 cask 'imazing'
 cask 'iexplorer'
 cask 'google-earth-pro'
 cask 'garmin-express'
-cask 'devonthink'
+# cask 'devonthink'
 cask 'deepl'
 cask 'cursor'
 cask 'cyberduck'
 cask 'daisydisk'
 cask 'silicon-labs-vcp-driver'
 cask 'coconutbattery'
-cask 'chatgpt'
+# cask 'chatgpt'
 cask 'bruno'
 cask 'balenaetcher'
 cask 'arq'
@@ -144,7 +140,7 @@ cask 'arduino-ide'
 cask 'arc'
 cask 'angry-ip-scanner'
 cask 'adobe-acrobat-reader'
-cask '1password@7'
+#cask '1password@7'
 cask 'kicad'
 
 # cask 'visual-studio'
@@ -169,11 +165,11 @@ mas '1Blocker Ad Blocker', id: 1_365_531_024
 mas '2FAS - 2FA Browser Extension', id: 6_443_941_139
 mas 'APNs Tool', id: 1_568_890_120
 mas 'Auth App for Tesla', id: 1_552_058_613
-mas 'Command X', id: 6_448_461_551
+# mas 'Command X', id: 6_448_461_551
 mas 'Consent-O-Matic', id: 1_606_897_889
 mas 'DaisyDisk', id: 411_643_860
 mas 'FIT File Explorer', id: 1_244_431_640
-mas 'Foreca', id: 525_994_479
+# mas 'Foreca', id: 525_994_479
 mas 'GoodLinks', id: 1_474_335_294
 mas 'Home Assistant', id: 1_099_568_401
 mas 'Hush Nag Blocker', id: 1_544_743_900
@@ -198,7 +194,7 @@ mas 'TestFlight', id: 899_247_664
 mas 'Trello', id: 1_278_508_951
 mas 'Transporter', id: 1_450_874_784
 mas 'Userscripts', id: 1_463_298_887
-mas 'WhatsApp', id: 1_147_396_723
+mas 'WhatsApp', id: 310_633_997
 mas 'Whisper Transcription', id: 1_668_083_311
 mas 'Windows App', id: 1_295_203_466
 mas 'Xcode', id: 497_799_835
