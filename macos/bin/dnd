@@ -22,10 +22,10 @@ function dnd::off() {
 # Pass any argument to turn off DND.
 if [[ $# -gt 0 ]] ||
    [[ $(defaults read com.apple.controlcenter 'NSStatusItem Visible FocusModes') == 1 ]]; then
-  killall caffeinate 2> /dev/null
+  # killall caffeinate 2> /dev/null
   m volume unmute
-  #open -a Flux
-  open -a DockMate
+
+  open -a DockDoor
   osascript <<< 'tell application "PopClip" to set enabled to true'
   defaults write com.apple.WindowManager StandardHideWidgets -int 0
   defaults write com.apple.finder CreateDesktop TRUE
@@ -39,16 +39,15 @@ if [[ $# -gt 0 ]] ||
 else
   # http://unix.stackexchange.com/a/148698/72946
   # http://stackoverflow.com/a/10408906/149264
-  nohup caffeinate -u -t $((9 * 60 * 60)) < /dev/null > /dev/null 2>&1 &disown
+  # nohup caffeinate -u -t $((9 * 60 * 60)) < /dev/null > /dev/null 2>&1 &disown
 
   if ! scutil --dns | grep --quiet --fixed-strings local.lan; then
-    Only mute while not at home.
-   m volume mute
+    # Only mute while not at home.
+    m volume mute
   fi
 
-  #killall Flux 2> /dev/null
-  killall DockMate 2> /dev/null
-  osascript <<< 'tell application "PopClip" to set enabled to false'
+  killall DockDoor 2> /dev/null
+  #osascript <<< 'tell application "PopClip" to set enabled to false'
   defaults write com.apple.WindowManager StandardHideWidgets -int 1
   defaults write com.apple.finder CreateDesktop -bool FALSE
   killall Finder
