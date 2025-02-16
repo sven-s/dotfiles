@@ -4,9 +4,9 @@ if [[ "$OSTYPE" != darwin* ]]; then
   return
 fi
 
-if [[ "$(uname -m)" == "arm64" ]]; then
-  softwareupdate --install-rosetta --agree-to-license
-fi
+#if [[ "$(uname -m)" == "arm64" ]]; then
+  # softwareupdate --install-rosetta --agree-to-license
+#fi
 
 # sudo with Touch ID
 # https://apple.stackexchange.com/a/466029
